@@ -24,7 +24,7 @@ pipeline {
         stage('Install .NET SDK') {
             steps {
                 // Instala el .NET SDK
-                sh '''
+                bat '''
                 wget https://dot.net/v1/dotnet-install.sh
                 chmod +x dotnet-install.sh
                 ./dotnet-install.sh --version latest
@@ -36,7 +36,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Construye el proyecto .NET
-                sh 'dotnet build'
+                bat 'dotnet build'
             }
         }
 
@@ -44,7 +44,7 @@ pipeline {
             steps {
                 // Ejecuta el análisis de SonarQube
                 withSonarQubeEnv('SonarQube') {
-                    sh "${SONARQUBE_SCANNER_HOME}/bin/sonar-scanner -Dsonar.projectKey=tu-proyecto -Dsonar.sources=. -Dsonar.host.url=${SONAR_HOST_URL} -Dsonar.login=${SONAR_LOGIN}"
+                    bat "${SONARQUBE_SCANNER_HOME}/bin/sonar-scanner -Dsonar.projectKey=tu-proyecto -Dsonar.sources=. -Dsonar.host.url=${SONAR_HOST_URL} -Dsonar.login=${SONAR_LOGIN}"
                 }
             }
         }
