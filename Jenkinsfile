@@ -13,9 +13,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clona el repositorio usando las credenciales de GitHub
-                bat '''
-                git clone https://github.com/F0xhunt3r-arch/DevOps-SAST-NET.git
-                '''
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[url: 'https://github.com/F0xhunt3r-arch/DevOps-SAST-NET.git', credentialsId: 'github-token']]])
             }
         }
 
