@@ -22,7 +22,7 @@ pipeline {
                 bat '''
                 curl -L -o dotnet-install.ps1 https://dot.net/v1/dotnet-install.ps1
                 powershell -NoProfile -ExecutionPolicy Bypass -File dotnet-install.ps1 -Version latest
-                set PATH=%PATH%;%USERPROFILE%\\.dotnet
+                setx PATH "%PATH%;%USERPROFILE%\\.dotnet"
                 '''
             }
         }
@@ -34,7 +34,7 @@ pipeline {
                 curl -L -o sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.6.2.2472-windows.zip
                 powershell -NoProfile -ExecutionPolicy Bypass -Command "Expand-Archive -Path sonar-scanner.zip -DestinationPath ."
                 ren sonar-scanner-* sonar-scanner
-                set PATH=%PATH%;%WORKSPACE%\\sonar-scanner\\bin
+                setx PATH "%PATH%;%WORKSPACE%\\sonar-scanner\\bin"
                 '''
             }
         }
