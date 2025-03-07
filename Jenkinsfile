@@ -1,16 +1,11 @@
 pipeline {
     agent any
 
-    tools {
-        // Define la herramienta .NET SDK que has configurado en Jenkins
-        dotnet 'dotnet-sdk'
-    }
-
     environment {
         // Configura las variables de entorno para SonarQube
-        SONARQUBE_SCANNER_HOME = tool 'SonarQube Scanner'
+        SONARQUBE_SCANNER_HOME = tool name: 'SonarQube Scanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation'
         SONAR_HOST_URL = 'http://3.85.20.213:9000'
-        SONAR_LOGIN = credentials('squ_ecd4e92d760b017acf67cb824ab4b2f193a0dc7d')
+        SONAR_LOGIN = 'squ_ecd4e92d760b017acf67cb824ab4b2f193a0dc7d'
     }
 
     stages {
@@ -25,10 +20,9 @@ pipeline {
             steps {
                 // Instala el .NET SDK
                 bat '''
-                wget https://dot.net/v1/dotnet-install.sh
-                chmod +x dotnet-install.sh
-                ./dotnet-install.sh --version latest
-                export PATH=$PATH:$HOME/.dotnet
+                curl -L -o dotnet-install.ps1 https://dot.net/v1/dotnet-install.ps1
+                powershell -NoProfile -ExecutionPolicy Bypass -File dotnet-install.ps1 -Version latest
+                set PATH=%PATH%;%USERPROFILE%\\.dotnet
                 '''
             }
         }
@@ -44,7 +38,9 @@ pipeline {
             steps {
                 // Ejecuta el análisis de SonarQube
                 withSonarQubeEnv('SonarQube') {
-                    bat "${SONARQUBE_SCANNER_HOME}/bin/sonar-scanner -Dsonar.projectKey=tu-proyecto -Dsonar.sources=. -Dsonar.host.url=${SONAR_HOST_URL} -Dsonar.login=${SONAR_LOGIN}"
+                    bat 'dotnet sonarscanner begin /k:"DevOps-SAST-NET" /d:sonar.host.url=%SONAR_HOST_URL% /d:sonar.login=%SONAR_LOGIN%'
+                    bat 'dotnet build'
+                    bat 'dotnet sonarscanner end /d:sonar.login=%SONAR_LOGIN%'
                 }
             }
         }
