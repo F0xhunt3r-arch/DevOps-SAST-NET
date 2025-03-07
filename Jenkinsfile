@@ -16,6 +16,13 @@ pipeline {
             }
         }
 
+        stage('Print PATH') {
+            steps {
+                // Imprime la variable de entorno PATH
+                bat 'echo %PATH%'
+            }
+        }
+
         stage('Install .NET SDK') {
             steps {
                 // Instala el .NET SDK
