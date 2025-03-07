@@ -6,13 +6,16 @@ pipeline {
         SONARQUBE_SCANNER_HOME = "${WORKSPACE}/sonar-scanner"
         SONAR_HOST_URL = 'http://3.85.20.213:9000'
         SONAR_LOGIN = credentials('sonarqube-token')
+        PATH = "${env.PATH};C:\\Windows\\System32;C:\\Program Files\\Git\\bin"
     }
 
     stages {
         stage('Checkout') {
             steps {
                 // Clona el repositorio usando las credenciales de GitHub
-                git url: 'https://github.com/F0xhunt3r-arch/DevOps-SAST-NET.git', credentialsId: 'github-token'
+                bat '''
+                git clone https://github.com/F0xhunt3r-arch/DevOps-SAST-NET.git
+                '''
             }
         }
 
@@ -29,7 +32,7 @@ pipeline {
                 bat '''
                 curl -L -o dotnet-install.ps1 https://dot.net/v1/dotnet-install.ps1
                 powershell -NoProfile -ExecutionPolicy Bypass -File dotnet-install.ps1 -Version latest
-                setx PATH "%PATH%;%USERPROFILE%\\.dotnet"
+                set PATH=%PATH%;%USERPROFILE%\\.dotnet
                 '''
             }
         }
@@ -41,7 +44,7 @@ pipeline {
                 curl -L -o sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.6.2.2472-windows.zip
                 powershell -NoProfile -ExecutionPolicy Bypass -Command "Expand-Archive -Path sonar-scanner.zip -DestinationPath ."
                 ren sonar-scanner-* sonar-scanner
-                setx PATH "%PATH%;%WORKSPACE%\\sonar-scanner\\bin"
+                set PATH=%PATH%;%WORKSPACE%\\sonar-scanner\\bin
                 '''
             }
         }
