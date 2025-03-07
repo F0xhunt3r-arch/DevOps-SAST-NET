@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Configura las variables de entorno para SonarQube
-        SONARQUBE_SCANNER_HOME = tool name: 'SonarQube Scanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation'
+        SONARQUBE_SCANNER_HOME = "${WORKSPACE}/sonar-scanner"
         SONAR_HOST_URL = 'http://3.85.20.213:9000'
         SONAR_LOGIN = credentials('sonarqube-token')
     }
@@ -27,6 +27,18 @@ pipeline {
             }
         }
 
+        stage('Install SonarQube Scanner') {
+            steps {
+                // Descarga e instala SonarQube Scanner
+                bat '''
+                curl -L -o sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.6.2.2472-windows.zip
+                powershell -NoProfile -ExecutionPolicy Bypass -Command "Expand-Archive -Path sonar-scanner.zip -DestinationPath ."
+                ren sonar-scanner-* sonar-scanner
+                set PATH=%PATH%;%WORKSPACE%\\sonar-scanner\\bin
+                '''
+            }
+        }
+
         stage('Build') {
             steps {
                 // Construye el proyecto .NET
@@ -38,9 +50,7 @@ pipeline {
             steps {
                 // Ejecuta el análisis de SonarQube
                 withSonarQubeEnv('SonarQube') {
-                    bat 'dotnet sonarscanner begin /k:"DevOps-SAST-NET" /d:sonar.host.url=%SONAR_HOST_URL% /d:sonar.login=%SONAR_LOGIN%'
-                    bat 'dotnet build'
-                    bat 'dotnet sonarscanner end /d:sonar.login=%SONAR_LOGIN%'
+                    bat "${env.SONARQUBE_SCANNER_HOME}/bin/sonar-scanner -Dsonar.projectKey=DevOps-SAST-NET -Dsonar.host.url=%SONAR_HOST_URL% -Dsonar.login=%SONAR_LOGIN%"
                 }
             }
         }
