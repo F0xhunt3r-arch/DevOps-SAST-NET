@@ -5,7 +5,7 @@ pipeline {
         // Configura las variables de entorno para SonarQube
         SONARQUBE_SCANNER_HOME = tool name: 'SonarQube Scanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation'
         SONAR_HOST_URL = 'http://3.85.20.213:9000'
-        SONAR_LOGIN = 'squ_ecd4e92d760b017acf67cb824ab4b2f193a0dc7d'
+        SONAR_LOGIN = credentials('sonarqube-token')
     }
 
     stages {
