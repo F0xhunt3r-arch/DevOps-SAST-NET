@@ -21,6 +21,18 @@ pipeline {
             }
         }
 
+        stage('Install .NET SDK') {
+            steps {
+                // Instala el .NET SDK
+                sh '''
+                wget https://dot.net/v1/dotnet-install.sh
+                chmod +x dotnet-install.sh
+                ./dotnet-install.sh --version latest
+                export PATH=$PATH:$HOME/.dotnet
+                '''
+            }
+        }
+
         stage('Build') {
             steps {
                 // Construye el proyecto .NET
