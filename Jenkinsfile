@@ -57,9 +57,12 @@ pipeline {
 
         stage('Build') {
             steps {
-                // Construye el proyecto .NET
-                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') { // Aquí se agrega el bloque catchError
-                    bat 'dotnet build'
+                script {
+                    // Construye el proyecto .NET y captura el estado de salida
+                    def buildStatus = bat(returnStatus: true, script: 'dotnet build')
+                    if (buildStatus != 0) {
+                        echo "Build failed with status: ${buildStatus}, but continuing with SonarQube analysis."
+                    }
                 }
             }
         }
