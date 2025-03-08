@@ -6,7 +6,7 @@ pipeline {
         SONARQUBE_SCANNER_HOME = "${WORKSPACE}/sonar-scanner"
         SONAR_HOST_URL = 'http://3.85.20.213:9000'
         SONAR_LOGIN = credentials('sonarqube-token')
-        PATH = "${env.PATH};C:\\Windows\\System32;C:\\Program Files\\Git\\bin;C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        PATH = "${env.PATH};C:\\Windows\\System32;C:\\Program Files\\Git\\bin;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files\\dotnet"
     }
 
     stages {
