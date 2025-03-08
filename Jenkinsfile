@@ -41,7 +41,8 @@ pipeline {
                 bat '''
                 curl -L -o sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.6.2.2472-windows.zip
                 powershell -NoProfile -ExecutionPolicy Bypass -Command "Expand-Archive -Path sonar-scanner.zip -DestinationPath ."
-                ren sonar-scanner-* sonar-scanner
+                dir
+                for /d %%d in (sonar-scanner-*) do ren "%%d" sonar-scanner
                 set PATH=%PATH%;%WORKSPACE%\\sonar-scanner\\bin
                 '''
             }
