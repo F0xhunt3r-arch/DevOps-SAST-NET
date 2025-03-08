@@ -48,6 +48,13 @@ pipeline {
             }
         }
 
+        stage('Clean') {
+            steps {
+                // Limpia el directorio obj
+                bat 'rmdir /s /q obj'
+            }
+        }
+
         stage('Build') {
             steps {
                 // Construye el proyecto .NET
