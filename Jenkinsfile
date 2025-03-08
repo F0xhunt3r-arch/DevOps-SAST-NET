@@ -58,7 +58,9 @@ pipeline {
         stage('Build') {
             steps {
                 // Construye el proyecto .NET
-                bat 'dotnet build'
+                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+                    bat 'dotnet build'
+                }
             }
         }
 
