@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DevSecOps_NET_LOGIN.props" />
+</Project>
