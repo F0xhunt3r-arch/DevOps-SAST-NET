@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        // variables de entorno para SonarQube
+        // Variables de entorno para SonarQube
         SONARQUBE_SCANNER_HOME = "${WORKSPACE}/sonar-scanner"
         SONAR_HOST_URL = 'http://3.87.182.98:9000'
         SONAR_LOGIN = credentials('sonarqube-token')
@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // credenciales de GitHub
+                // Credenciales de GitHub
                 checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[url: 'https://github.com/F0xhunt3r-arch/DevOps-SAST-NET.git', credentialsId: 'github-token']]])
             }
         }
@@ -50,8 +50,16 @@ pipeline {
 
         stage('Clean') {
             steps {
-                // Limpia el directorio obj
+                // Limpia el directorio obj y bin
                 bat 'rmdir /s /q obj'
+                bat 'rmdir /s /q bin'
+            }
+        }
+
+        stage('Restore') {
+            steps {
+                // Restaura los paquetes NuGet
+                bat 'dotnet restore'
             }
         }
 
