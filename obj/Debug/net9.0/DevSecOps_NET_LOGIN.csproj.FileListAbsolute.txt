@@ -19,7 +19,7 @@ C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\obj\Debug\net9.0
 C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\obj\Debug\net9.0\scopedcss\bundle\DevSecOps_NET_LOGIN.styles.css
 C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\obj\Debug\net9.0\scopedcss\projectbundle\DevSecOps_NET_LOGIN.bundle.scp.css
-C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\obj\Debug\net9.0\compressed\9tcx4uf859-b9sayid5wm.gz
+C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\obj\Debug\net9.0\compressed\9tcx4uf859-kt7dfaa3df.gz
 C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\obj\Debug\net9.0\compressed\js4v2ed6no-61n19gt1b8.gz
 C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\obj\Debug\net9.0\compressed\m2i98anusw-xtxxf3hu2r.gz
 C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\obj\Debug\net9.0\compressed\nb6f1vqx7l-bqjiyaj88i.gz
