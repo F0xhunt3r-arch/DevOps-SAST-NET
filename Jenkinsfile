@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        // Configura las variables de entorno para SonarQube
+        // variables de entorno para SonarQube
         SONARQUBE_SCANNER_HOME = "${WORKSPACE}/sonar-scanner"
-        SONAR_HOST_URL = 'http://3.85.20.213:9000'
+        SONAR_HOST_URL = 'http://3.87.182.98:9000'
         SONAR_LOGIN = credentials('sonarqube-token')
         PATH = "${env.PATH};C:\\Windows\\System32;C:\\Program Files\\Git\\bin;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files\\dotnet"
     }
@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Clona el repositorio usando las credenciales de GitHub
+                // credenciales de GitHub
                 checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[url: 'https://github.com/F0xhunt3r-arch/DevOps-SAST-NET.git', credentialsId: 'github-token']]])
             }
         }
