@@ -75,5 +75,25 @@ pipeline {
                 }
             }
         }
+
+        stage('Quality Gate') {
+            steps {
+                script {
+                    timeout(time: 10, unit: 'MINUTES') {
+                        def startTime = System.currentTimeMillis()
+                        def qg = waitForQualityGate()
+                        while (qg.status == 'PENDING') {
+                            sleep 10
+                            def elapsedTime = (System.currentTimeMillis() - startTime) / 1000
+                            echo "Tiempo transcurrido: ${elapsedTime} segundos"
+                            qg = waitForQualityGate()
+                        }
+                        if (qg.status != 'OK') {
+                            error "Pipeline aborted due to quality gate failure: ${qg.status}"
+                        }
+                    }
+                }
+            }
+        }
     }
 }
