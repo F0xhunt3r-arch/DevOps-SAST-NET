@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\DevSecOps_NET_LOGIN.props" />
-</Project>

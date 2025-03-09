@@ -7,6 +7,7 @@
     <Nullable>enable</Nullable> <!-- Habilitar anotaciones de referencia NULL -->
   </PropertyGroup>
 
+
      <ItemGroup>
     <Content Update="wwwroot\**\*;Views\**\*;Pages\**\*;Controllers\**\*;Models\**\*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
