@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable> <!-- Habilitar anotaciones de referencia NULL -->
   </PropertyGroup>
 
+     <ItemGroup>
+    <Content Update="wwwroot\**\*;Views\**\*;Pages\**\*;Controllers\**\*;Models\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+     <ItemGroup>
+       <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.2" />
+     </ItemGroup>
+
 </Project>

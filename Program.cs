@@ -1,4 +1,7 @@
-// filepath: C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_CODE\Program.cs
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);

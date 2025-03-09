@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3pHbwMjEiQW2y+K3RpFez+GPwP+K+C2yl20uYr4WMeA=",
+  "Hash": "SzHUFA7ozEu8yl+0LjGiPVtcfxO9ukW6sZTHW2Lvro8=",
   "Source": "DevSecOps_NET_LOGIN",
   "BasePath": "_content/DevSecOps_NET_LOGIN",
   "Mode": "Default",
@@ -33,7 +33,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "qmaqe8uvdz",
       "Integrity": "UkbVh5EDjQ9ElFF2VidPUKfIufgj0++IuUkiaieELZw=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
@@ -54,7 +54,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "xmcjt9e9cy",
       "Integrity": "ueerZxLdSKIEsWJ13wzBfTcRfd3uGSfOQwhUfM1jRec=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
@@ -75,7 +75,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "uya4g6am6w",
       "Integrity": "hhhjkgaWyJk2NWrF/LyhTIDOF42U+kBX72IU2K4RWJg=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
@@ -96,7 +96,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "dtwnk525ov",
       "Integrity": "H9IPXBzUtJGG7PJdjNTz1WD7YcFYCi+22bHkHPR+CdY=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
@@ -117,7 +117,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "nqh38a62u8",
       "Integrity": "j8xOcokVqVMlkhtMkAD+dCGjp8eCK+RXUPREaOqe2TU=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
@@ -138,7 +138,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "k64ed53csw",
       "Integrity": "VGKPtySribew+qZrTcy+fpnTi7Q3gxSv+HWQQ/4rQos=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
@@ -159,7 +159,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "f711a7kh87",
       "Integrity": "pf2AOjAOccWBEl9ORfBaaHo0t3lQUfisiqfIeMW9tqI=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
@@ -180,7 +180,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "yc8010sx1o",
       "Integrity": "rjTJ9Ut8h6OLoNYsNgr7e/TIritk83K5bucjnu0BPlM=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
@@ -201,7 +201,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "hack831yxc",
       "Integrity": "xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
@@ -222,7 +222,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "42umladzh7",
       "Integrity": "rG54EGAHotdOswEyoMsIu5DDixozuuoKxcO7w4hcEQA=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
@@ -264,7 +264,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "2wjbbjit2u",
       "Integrity": "crByaO07mpJWuBndE5BbjmmKh3fj/Y0m8CmJDe+c3UQ=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
@@ -285,7 +285,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "d7q4cn5biw",
       "Integrity": "V0pKRwbw4DysvYMPCNK3s+wSdDLvMWJFO+hKrptop7A=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
@@ -306,7 +306,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "p5ev1mo4sb",
       "Integrity": "bZLUSM9fRhNJKF4yFjKvv9iU/j2aC1lJtEqR9u5n6y8=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
@@ -327,7 +327,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "2k5ha5qn83",
       "Integrity": "nuuauMZg92Lq1w9JnCHRfNGUNc9WeRQGkGwvzcHEyTQ=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
@@ -348,7 +348,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "u3mr700haq",
       "Integrity": "qk/LGv3UCKBZhVKSwN0Lvyprj8TiWmp+iiWhP0Dwdt4=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
@@ -369,7 +369,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "yedk7y2ovv",
       "Integrity": "FjCFey27wknG6tewZOhPfnDgvIw+sTBly7wTSXKSd8M=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
@@ -390,7 +390,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "hj6zx16vtq",
       "Integrity": "I28FOsKinIPvKQJYJhPmeb5aWTZaShTculcMW3WSRdU=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
@@ -411,7 +411,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "0suozzrugb",
       "Integrity": "0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\css\\site.css"
     },
@@ -432,7 +432,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "42ih0tfzwc",
       "Integrity": "rLnVjI3ToFgRadgC+qnQqkjBbeGzyUk/W1M+MRurfiM=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
@@ -453,7 +453,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "47nw1ac886",
       "Integrity": "cAYCo2Q8Ith/zqZVNFuI/cRoMoGlmld9t1DuyUGILPk=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
@@ -474,7 +474,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "goh6yfn9uv",
       "Integrity": "ALPf6qsZMu+Ui8l8jPJJF3MhTcq6uwrQhRWeWJL4ixU=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
@@ -495,7 +495,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "j9d5qn8h15",
       "Integrity": "mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
@@ -516,7 +516,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "7jljgo6o9r",
       "Integrity": "w8PM3Ms+TEJVQ/PGIsRL/kn0h83Pm5ek8Sm7/zkgCYc=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
@@ -537,7 +537,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "n46fiwynw7",
       "Integrity": "OYFfBiMA8guQaokr7JUEKEquxVFRad17YsNbJdI0IKM=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
@@ -558,7 +558,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "m8w5b0wq9e",
       "Integrity": "imJ8RM7oNfakmMXAji+mGEXDQYSPHKMWoVjRycEkdZ0=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js"
     },
@@ -579,7 +579,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "1xcrflemqm",
       "Integrity": "Jb3hghPX8HIvLINQ2LRDLH33mFfqyzbk+nTsbiHtKr4=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
@@ -600,7 +600,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "svb68clhd0",
       "Integrity": "WDZTOK9dQrex7lgPEZZ+JZhLPdAF5GijB8N4Mslft/0=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
@@ -621,7 +621,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "0v96h8eab3",
       "Integrity": "bKh1MfaBAldvWxNRIEd7ZCFzOhTySMaAYostY/K7XbA=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
@@ -642,7 +642,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "l17cqhtmgf",
       "Integrity": "V8PtmOQL2VKj+/TynmuZNdDDyU9qG1QJ7FFnxVcN6Y8=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
@@ -663,7 +663,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "8j9rvpuvlg",
       "Integrity": "BIw6qCD4ysNHqPUgCkXJ/h+XlQ/h+2MuYEbvs/ZN+kM=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
@@ -684,7 +684,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "bxpwye2e51",
       "Integrity": "wbodRxtgYaqKj+oSPNLIcKGMPziM41to/lFFylYjPBc=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
@@ -705,7 +705,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "1fp9w2itex",
       "Integrity": "7bAe2yT3obcUnzDyFQyuh4GI4iC/NGB4Bs4gZaY3Wj4=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
@@ -726,7 +726,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "k2cjzt041l",
       "Integrity": "JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\jquery\\LICENSE.txt"
     },
@@ -747,7 +747,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "2yhmugv22u",
       "Integrity": "WpL0kbwDHONKwUu+fAC6nKQXtZOBY20Gsspcn336Iz4=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -768,7 +768,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "oaf6lwhfh1",
       "Integrity": "8BfOknNd4oMU2u3DUY0C/Sjhoh3NGtdqE8kxApMdM2w=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
@@ -789,7 +789,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "1jikaxfu3u",
       "Integrity": "M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
@@ -810,7 +810,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "5hgi50qbud",
       "Integrity": "F1eM1vgG9PaT7pF5Hubo7swbaVAWhXsjYwxoJvyk5+s=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
@@ -831,7 +831,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "nezsohjtde",
       "Integrity": "wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\favicon.ico"
     },
@@ -852,7 +852,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "vo1c50q1ou",
       "Integrity": "cWfRgogdfOCr54Ae/lxY515FP4TJyUwc4Ae6uejBPI0=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
@@ -873,7 +873,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "0uw774o5yt",
       "Integrity": "CKd1DZe0tmjYGXJCdpcyExOT7GvFEZKGtk3+Ij7ZTSc=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
@@ -894,7 +894,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "mxqr4d2em4",
       "Integrity": "Gjkg0hmhA9Aga0f2ZS8ZqJ/GES4kxIvtWTfabr1bc2Y=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
@@ -915,7 +915,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "q8bg8bu1pt",
       "Integrity": "Fi8DMQpQ0pHVk8uDPzXmz7v1U9ElGm/J/lTUl54WMHw=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
@@ -936,7 +936,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "rl5dcbfpcw",
       "Integrity": "Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\js\\site.js"
     },
@@ -957,7 +957,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "mhey2fgxm6",
       "Integrity": "2psAeYsQwIU+4hjhaa7aiuEI8eM0VqXG4mLMI2LB5kg=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
@@ -978,7 +978,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "7trewrvtze",
       "Integrity": "td/WnErsJHKP3LT8Bz6znCdABuCWnP513FYSQpHRK9A=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
@@ -999,7 +999,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "5fijz6kmv0",
       "Integrity": "AX9UjSDaqolhmzTa/KUDWMjLF2XlYT6I6JZuUGrm1nw=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
@@ -1020,7 +1020,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "q07w49iitf",
       "Integrity": "itOFoWDZSqZIyZRKcH5nH/mbWKG8zHsAz7G0W9zjagg=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
@@ -1041,7 +1041,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "mns2a2zywm",
       "Integrity": "kj9zDkFgjDpUKwWasvv6a42LMVfqKjl/Ji5Z5LCNoRE=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
@@ -1062,7 +1062,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "hq2hiirxit",
       "Integrity": "GfL7M76amKU+B+H1o4WVh7q13GpiC7L6scp3ODOz3ag=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
@@ -1083,7 +1083,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "jgdip1sczm",
       "Integrity": "ozEUTWBbc3wKZYb3ecLdk+9yMj3kbTTBJx6aTKh2FDs=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
@@ -1104,7 +1104,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "sgz3bfuucz",
       "Integrity": "tELcWYAIUkPDirIRIOTlom3Q4rdUDcA6PdYMCRE48xY=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
@@ -1125,7 +1125,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "mulfwnbtpa",
       "Integrity": "oheIXejBlri6EJgnT3rCEOV8cSc0XnYutP+KQ6pSvDc=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
@@ -1146,7 +1146,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "cmcmkw9yu7",
       "Integrity": "ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
@@ -1167,7 +1167,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "nv0k9gv8u2",
       "Integrity": "cxoqFtEDkm4KCYDrmWgnE7zkiXwSKUlq/rctM76ouDg=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
@@ -1188,7 +1188,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "nd4sjw69va",
       "Integrity": "KxjxxNhsaUlb9m0XwKNiMkNh6OuNbjdGXY0bmR5CTyE=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
@@ -1230,7 +1230,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "we7ylowkap",
       "Integrity": "+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
@@ -1251,7 +1251,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "klzs96wner",
       "Integrity": "OOTujdl0QaxckSfKf4pISOdHdkWzUDKsaJmaS87CLzk=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
@@ -1272,7 +1272,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "1s03qn3l9f",
       "Integrity": "T1Mxz6b5tcPGdGYeBLTL5A9PUSvbDbkClvy0G7J1r2k=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
@@ -1293,7 +1293,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "n2nwmiwapx",
       "Integrity": "zxq4fMIq5J99E6EK1H7qVe10DUZ2GcXauY+j6URB7DI=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
@@ -1314,7 +1314,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "q71g5sacw1",
       "Integrity": "Jh/LtOdwAMNcT5vpbDEGsxe6Xv18LR1JqK4h/+hvs5g=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
@@ -1335,7 +1335,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "p2onhk81wj",
       "Integrity": "oRq8VZWOZX9mMbVVZBzw8rSxg8D8d6u0L0zM8MMIvaE=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
@@ -1356,7 +1356,7 @@
       "AssetTraitValue": "gzip",
       "Fingerprint": "xj2ze9hdow",
       "Integrity": "rdkQBPBwlP4JzOj6r9lyBjOEX/yZn2usvoAwy9AWc1Y=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
@@ -1419,7 +1419,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "b9sayid5wm",
       "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
@@ -1440,7 +1440,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "61n19gt1b8",
       "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
@@ -1461,7 +1461,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "xtxxf3hu2r",
       "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
@@ -1482,7 +1482,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "t1cqhe9u97",
       "Integrity": "f4c8YV1qrr6RSiVYWMQT7R5W2OkT+iXmE5H69/uRvGQ=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
@@ -1503,7 +1503,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "c2jlpeoesf",
       "Integrity": "xAT+n25FE5hvOjj2fG4YdOwr1bl4IlAJBNg6PbhLT2E=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
@@ -1524,7 +1524,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "sejl45xvog",
       "Integrity": "hN2ttMG/K3wQlFrN3SbQ1YF4tIJHCE4oYP+QibT3vOY=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
@@ -1545,7 +1545,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "aexeepp0ev",
       "Integrity": "kgL+xwVmM8IOs15lnoHt9daR2LRMiBG/cYgUPcKQOY4=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
@@ -1566,7 +1566,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "xvp3kq03qx",
       "Integrity": "M15fHTKfMK6cTars5c28PNhN6hD0qeUb3HPzOdoPwCc=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
@@ -1587,7 +1587,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "ausgxo2sd3",
       "Integrity": "/siQUA8yX830j+cL4amKHY3yBtn3n8z3Eg+VZ15f90k=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
@@ -1608,7 +1608,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "22vffe00uq",
       "Integrity": "+rGG3u63SMkHL80Ga42LAawPUj7i8vaR2Kuenqlta2E=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
@@ -1629,7 +1629,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "cosvhxvwiu",
       "Integrity": "7GdOlw7U/wgyaeUtFmxPz5/MphdvVSPtVOOlTn9c33Q=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
@@ -1650,7 +1650,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "qesaa3a1fm",
       "Integrity": "rjusxCRzKjztCcfgOVduAc3e3Z7KvimJGokJSeADNmE=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
@@ -1671,7 +1671,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "fvhpjtyr6v",
       "Integrity": "RXJ/QZiBfHXoPtXR2EgC+bFo2pe3GtbZO722RtiLGzQ=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
@@ -1692,7 +1692,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "tmc1g35s3z",
       "Integrity": "y72bT5TKmFmfvw3bNEzPRNZa/8595xtseZIcBUV0PdM=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
@@ -1713,7 +1713,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "fsbi9cje9m",
       "Integrity": "0eqVT62kqRLJh9oTqLeIH4UnQskqVjib8hl2fXxl4lg=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
@@ -1734,7 +1734,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "rxsg74s51o",
       "Integrity": "gRKIHVkBgnCPUs/hmZsXynZ9ZJpvsE77idtljDkrWGI=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
@@ -1755,7 +1755,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "ee0r1s7dh0",
       "Integrity": "OoQVwh7Arp7bVoK2ZiTx2S//KrnPrSPzPZ93CqCMhe8=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
@@ -1776,7 +1776,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "q9ht133ko3",
       "Integrity": "UkajePbMzGj8y73Imkd3dWWnLJr0v2CrBCLMrVMleP8=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
@@ -1797,7 +1797,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "jd9uben2k1",
       "Integrity": "910zw+rMdcg0Ls48ATp65vEn8rd5HvPxOKm2x3/CBII=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
@@ -1818,7 +1818,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "gye83jo8yx",
       "Integrity": "uIzOR4gILoNjCGNryIsWnkEGO3BSwRa/MLjr73tDodE=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
@@ -1839,7 +1839,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "r4e9w2rdcm",
       "Integrity": "Nfjrc4Ur9Fv2oBEswQWIyBnNDP99q+LhL+z9553O0cY=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
@@ -1860,7 +1860,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "wl58j5mj3v",
       "Integrity": "ZBXbYF8OZrF1GDOLMLvW/zRPtx1RfeMDYj5D2Wb/9jo=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
@@ -1881,7 +1881,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "c2oey78nd0",
       "Integrity": "rHDmip4JZzuaGOcSQ1QSQrIbG0Eb3Zja9whqSF1zYIU=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
@@ -1902,7 +1902,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "d4r6k3f320",
       "Integrity": "MwFckg8YbY2WrveNQnXkfULkprYhFOq+t1BH92A7GsI=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
@@ -1923,7 +1923,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "j5mq2jizvt",
       "Integrity": "p0BVq5Ve/dohBIdfbrZsoQNu02JSsKh1g0wbyiQiUaU=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
@@ -1944,7 +1944,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "keugtjm085",
       "Integrity": "7MYEMUFgHEc1CjrfAK/TlV30POxgoxXk2b+vAs/143U=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
@@ -1965,7 +1965,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "nvvlpmu67g",
       "Integrity": "o8XK32mcY/FfcOQ1D2HJvVuZ0YTXSURZDLXCK0fnQeA=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
@@ -1986,7 +1986,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "zub09dkrxp",
       "Integrity": "CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
@@ -2007,7 +2007,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "pj5nd1wqec",
       "Integrity": "KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
@@ -2028,7 +2028,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "43atpzeawx",
       "Integrity": "sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
@@ -2049,7 +2049,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "v0zj4ognzu",
       "Integrity": "8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
@@ -2070,7 +2070,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "ynyaa8k90p",
       "Integrity": "/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
@@ -2091,7 +2091,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "hrwsygsryq",
       "Integrity": "3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
@@ -2112,7 +2112,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "c63t5i9ira",
       "Integrity": "rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
@@ -2133,7 +2133,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "ft3s53vfgj",
       "Integrity": "rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
@@ -2154,7 +2154,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "4094rpi4f9",
       "Integrity": "bNojyBU9M3Cv/K4YqdKkq4xeaAkchkkS7HXP7554z9Y=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
@@ -2175,7 +2175,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "6pdc2jztkx",
       "Integrity": "Wq4aWW1rQdJ+6oAgy1JQc9IBjHL9T3MKfXTBNqOv02c=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
@@ -2196,7 +2196,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "hd3gran6i8",
       "Integrity": "6zfk2L8R3wCgRbZzpkEi7UYC2bc6fYGIgFfNeqyOWnQ=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
@@ -2217,7 +2217,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "iovd86k7lj",
       "Integrity": "Xj4HYxZBQ7qqHKBwa2EAugRS+RHWzpcTtI49vgezUSU=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
@@ -2238,7 +2238,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "ltid2c489k",
       "Integrity": "idJzCWndWIhl4ZZvXbuLRTe5wquRfykXbEiDpO7ZsFk=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
@@ -2259,7 +2259,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "kbrnm935zg",
       "Integrity": "EPRLgpqWkahLxEn6CUjdM76RIYIw1xdHwTbeHssuj/4=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
@@ -2280,7 +2280,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "8vyfqsqgz1",
       "Integrity": "REjSeieVKd00nAKwd6dv7MMhuVKvKctPmLI4iDRs/cc=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
@@ -2301,7 +2301,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "y7v9cxd14o",
       "Integrity": "Tsbv8z6VlNgVET8xvz/yLo/v5iJHTAj2J4hkhjP1rHM=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
@@ -2322,7 +2322,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "u9q1upor1n",
       "Integrity": "vqK8KwEVuWidx0Ddm5m5LyBriPDPl9TcjrKZQhkFSVA=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
@@ -2343,7 +2343,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "h1s4sie4z3",
       "Integrity": "9Wr7Hxe8gCJDoIHh5xP29ldXvC3kN2GkifQj9c8vYx4=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
@@ -2364,7 +2364,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "4d85u1mtcx",
       "Integrity": "aCTIqw9op0XQGYnNe1649V7fnihACD48OP3M8BP2xVM=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
@@ -2385,7 +2385,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "0j3bgjxly4",
       "Integrity": "ZI01e/ns473GKvACG4McggJdxvFfFIw4xspwQiG8Ye4=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
@@ -2406,7 +2406,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "81b7ukuj9c",
       "Integrity": "ZH6pA6BSx6fuHZvdaKph1DwUJ+VSYilIiEQu8ilnvqk=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
@@ -2427,7 +2427,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "03hjc8e09r",
       "Integrity": "xJbBMLGhYbXlPrrrddrSVmduyF6KEtbxEsYxw7hYZV4=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
@@ -2448,7 +2448,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "48y08845bh",
       "Integrity": "RFWFWIIPsjB4DucR4jqwxTWw13ZmtI+s6tVR2LJmZXk=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
@@ -2469,7 +2469,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "356vix0kms",
       "Integrity": "16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -2490,7 +2490,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "83jwlth58m",
       "Integrity": "XL6yOf4sfG2g15W8aB744T4ClbiDG4IMGl2mi0tbzu0=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
@@ -2511,7 +2511,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "mrlpezrjn3",
       "Integrity": "jhvKRxZo6eW/PyCe+4rjBLzqesJlE8rnyQGEjk8l2k8=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
@@ -2532,7 +2532,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "worgj0nhwm",
       "Integrity": "0GxoUp3otVLneA5AAK6d6uUs64GFYYMOJ8VrHPs4xKA=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
@@ -2553,7 +2553,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "gk0pw8i4co",
       "Integrity": "4NCwFlQ/wYiXS/TiueaKHFZND6AibX0E5NEBx9i3ar0=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
@@ -2574,7 +2574,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "x0q3zqp4vz",
       "Integrity": "geHEkw/WGPdaHQMRq5HuNY9snliNzU/y2OW8ycnhGXw=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
@@ -2595,7 +2595,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "d6nrnj6jjx",
       "Integrity": "6440qEDaqjKqrIVfk4x21neDBVsbef6XUR5dUCKBv/E=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
@@ -2616,7 +2616,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "m9qm4tazc0",
       "Integrity": "eqaw4I9IoPldjffqieTL/h7z0ejA9zc/fyXt+05KMl4=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
@@ -2637,7 +2637,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "ttgo8qnofa",
       "Integrity": "z3TVHGLSmRiZiRMOu0I7MEU1Mv3ImI2OK3GxuRZagLg=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
@@ -2658,7 +2658,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "jjsuc0puko",
       "Integrity": "AXgugf7kYNDl5ASR/8ZY13Id5HcDtTTmscOm4zwYn4E=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.js"
     },
@@ -2679,7 +2679,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "9vr69e8ynj",
       "Integrity": "a4xPRM7I0Iu95emrjGFRPWtNfn31f7PRjqVT5MIQMuc=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
@@ -2700,7 +2700,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "87fc7y1x7t",
       "Integrity": "9FYmcgtx8qZo1OPPiPt/BJ/sz0EI8SRNUYsFLZDEEt4=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
@@ -2721,7 +2721,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "mlv21k5csn",
       "Integrity": "hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     }
@@ -3050,7 +3050,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 22:55:58 GMT"
+          "Value": "Sun, 09 Mar 2025 23:15:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3103,7 +3103,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 22:55:58 GMT"
+          "Value": "Sun, 09 Mar 2025 23:15:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3140,7 +3140,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 22:55:58 GMT"
+          "Value": "Sun, 09 Mar 2025 23:15:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3187,7 +3187,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 22:55:58 GMT"
+          "Value": "Sun, 09 Mar 2025 23:15:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3248,7 +3248,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 22:55:58 GMT"
+          "Value": "Sun, 09 Mar 2025 23:15:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3293,7 +3293,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 22:55:58 GMT"
+          "Value": "Sun, 09 Mar 2025 23:15:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3348,7 +3348,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 22:55:58 GMT"
+          "Value": "Sun, 09 Mar 2025 23:15:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3409,7 +3409,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 22:55:58 GMT"
+          "Value": "Sun, 09 Mar 2025 23:15:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3454,7 +3454,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 22:55:58 GMT"
+          "Value": "Sun, 09 Mar 2025 23:15:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3509,7 +3509,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 22:55:58 GMT"
+          "Value": "Sun, 09 Mar 2025 23:15:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3562,7 +3562,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 22:55:58 GMT"
+          "Value": "Sun, 09 Mar 2025 23:15:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3599,7 +3599,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 22:55:58 GMT"
+          "Value": "Sun, 09 Mar 2025 23:15:14 GMT"
         },
         {
           "Name": "Cache-Control",

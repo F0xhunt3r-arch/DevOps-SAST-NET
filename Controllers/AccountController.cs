@@ -3,44 +3,56 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+using Microsoft.Extensions.Logging;
 
-public class AccountController : Controller
+namespace DevSecOps_NET_LOGIN.Controllers
 {
-    [HttpGet]
-    public IActionResult Login()
+    public class AccountController : Controller
     {
-        return View();
-    }
+        private readonly ILogger<AccountController> _logger;
 
-    [HttpPost]
-    public async Task<IActionResult> Login(string username, string password)
-    {
-        if (username == "admin" && password == "password")
+        public AccountController(ILogger<AccountController> logger)
         {
-            var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, username)
-            };
-
-            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-            var authProperties = new AuthenticationProperties
-            {
-                IsPersistent = true
-            };
-
-            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
-
-            return RedirectToAction("Index", "Home");
+            _logger = logger;
         }
 
-        ViewBag.ErrorMessage = "Usuario o contraseña incorrectos";
-        return View();
-    }
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
 
-    [HttpPost]
-    public async Task<IActionResult> Logout()
-    {
-        await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-        return RedirectToAction("Login", "Account");
+        [HttpPost]
+        public async Task<IActionResult> Login(string username, string password)
+        {
+            if (username == "admin" && password == "password")
+            {
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, username)
+                };
+
+                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                var authProperties = new AuthenticationProperties
+                {
+                    IsPersistent = true
+                };
+
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
+
+                return RedirectToAction("Index", "Home");
+            }
+
+            ViewBag.ErrorMessage = "Usuario o contraseña incorrectos";
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Login", "Account");
+        }
     }
 }
