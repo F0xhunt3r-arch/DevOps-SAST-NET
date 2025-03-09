@@ -20,6 +20,7 @@
       "outputPath": "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "C:\\Users\\Usuario\\Desktop\\DevSecOps_NET_CODE\\DevSecOps_NET_LOGIN\\NuGet.Config",
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

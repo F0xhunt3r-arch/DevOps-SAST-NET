@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DevSecOps_NET_LOGIN")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f9fd431f9eb3d3bc239c0759c98cdbb8baebb62")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b664efa161589feb3dcfaa2d65847dd09ebb2753")]
 [assembly: System.Reflection.AssemblyProductAttribute("DevSecOps_NET_LOGIN")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DevSecOps_NET_LOGIN")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
