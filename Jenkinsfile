@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        // Variables de entorno para SonarQube
+        // variables de entorno para SonarQube
         SONARQUBE_SCANNER_HOME = "${WORKSPACE}/sonar-scanner"
         SONAR_HOST_URL = 'http://3.87.182.98:9000'
         SONAR_LOGIN = credentials('sonarqube-token')
@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Credenciales de GitHub
+                // credenciales de GitHub
                 checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[url: 'https://github.com/F0xhunt3r-arch/DevOps-SAST-NET.git', credentialsId: 'github-token']]])
             }
         }
@@ -29,7 +29,7 @@ pipeline {
                 // Instala el .NET SDK
                 bat '''
                 curl -L -o dotnet-install.ps1 https://dot.net/v1/dotnet-install.ps1
-                powershell -NoProfile -ExecutionPolicy Bypass -File dotnet-install.ps1 -Version 8.0
+                powershell -NoProfile -ExecutionPolicy Bypass -File dotnet-install.ps1 -Version latest
                 set PATH=%PATH%;%USERPROFILE%\\.dotnet\\
                 '''
             }
@@ -50,16 +50,8 @@ pipeline {
 
         stage('Clean') {
             steps {
-                // Limpia los directorios obj y bin
+                // Limpia el directorio obj
                 bat 'rmdir /s /q obj'
-                bat 'rmdir /s /q bin'
-            }
-        }
-
-        stage('Restore') {
-            steps {
-                // Restaura los paquetes NuGet
-                bat 'dotnet restore'
             }
         }
 
@@ -80,6 +72,17 @@ pipeline {
                 // Ejecuta el análisis de SonarQube
                 withSonarQubeEnv('SonarQube') {
                     bat "${env.SONARQUBE_SCANNER_HOME}/bin/sonar-scanner -Dsonar.projectKey=DevOps-SAST-NET -Dsonar.host.url=%SONAR_HOST_URL% -Dsonar.login=%SONAR_LOGIN%"
+                }
+            }
+        }
+
+        stage('Quality Gate') {
+            steps {
+                script {
+                    def qg = waitForQualityGate()
+                    if (qg.status != 'OK') {
+                        error "Pipeline aborted due to quality gate failure: ${qg.status}"
+                    }
                 }
             }
         }
