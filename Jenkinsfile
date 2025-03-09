@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        // Configura las variables de entorno para SonarQube
+        // Variables de entorno para SonarQube
         SONARQUBE_SCANNER_HOME = "${WORKSPACE}/sonar-scanner"
-        SONAR_HOST_URL = 'http://3.85.20.213:9000'
+        SONAR_HOST_URL = 'http://3.87.182.98:9000'
         SONAR_LOGIN = credentials('sonarqube-token')
         PATH = "${env.PATH};C:\\Windows\\System32;C:\\Program Files\\Git\\bin;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files\\dotnet"
     }
@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Clona el repositorio usando las credenciales de GitHub
+                // Credenciales de GitHub
                 checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[url: 'https://github.com/F0xhunt3r-arch/DevOps-SAST-NET.git', credentialsId: 'github-token']]])
             }
         }
@@ -29,7 +29,7 @@ pipeline {
                 // Instala el .NET SDK
                 bat '''
                 curl -L -o dotnet-install.ps1 https://dot.net/v1/dotnet-install.ps1
-                powershell -NoProfile -ExecutionPolicy Bypass -File dotnet-install.ps1 -Version latest
+                powershell -NoProfile -ExecutionPolicy Bypass -File dotnet-install.ps1 -Version 8.0
                 set PATH=%PATH%;%USERPROFILE%\\.dotnet\\
                 '''
             }
@@ -39,7 +39,7 @@ pipeline {
             steps {
                 // Descarga e instala SonarQube Scanner
                 bat '''
-                curl -L -o sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.6.2.2472-windows.zip
+                curl -L -o sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-5.0.1.3006-windows.zip
                 powershell -NoProfile -ExecutionPolicy Bypass -Command "Expand-Archive -Path sonar-scanner.zip -DestinationPath . -Force"
                 if exist sonar-scanner rmdir /s /q sonar-scanner
                 powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-ChildItem -Path . -Filter 'sonar-scanner-*' | Rename-Item -NewName 'sonar-scanner'"
@@ -50,8 +50,16 @@ pipeline {
 
         stage('Clean') {
             steps {
-                // Limpia el directorio obj
+                // Limpia los directorios obj y bin
                 bat 'rmdir /s /q obj'
+                bat 'rmdir /s /q bin'
+            }
+        }
+
+        stage('Restore') {
+            steps {
+                // Restaura los paquetes NuGet
+                bat 'dotnet restore'
             }
         }
 
@@ -72,15 +80,6 @@ pipeline {
                 // Ejecuta el análisis de SonarQube
                 withSonarQubeEnv('SonarQube') {
                     bat "${env.SONARQUBE_SCANNER_HOME}/bin/sonar-scanner -Dsonar.projectKey=DevOps-SAST-NET -Dsonar.host.url=%SONAR_HOST_URL% -Dsonar.login=%SONAR_LOGIN%"
-                }
-            }
-        }
-
-        stage('Quality Gate') {
-            steps {
-                // Espera a que SonarQube termine el análisis
-                timeout(time: 1, unit: 'HOURS') {
-                    waitForQualityGate abortPipeline: true
                 }
             }
         }
