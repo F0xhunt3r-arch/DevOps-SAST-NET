@@ -50,7 +50,7 @@ pipeline {
 
         stage('Clean') {
             steps {
-                // Limpia el directorio obj y bin
+                // Limpia los directorios obj y bin
                 bat 'rmdir /s /q obj'
                 bat 'rmdir /s /q bin'
             }

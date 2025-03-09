@@ -8,8 +8,6 @@ C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\bin\Debug\net7.0
 C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\bin\Debug\net7.0\DevSecOps_NET_LOGIN.dll
 C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\bin\Debug\net7.0\DevSecOps_NET_LOGIN.pdb
 C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\obj\Debug\net7.0\DevSecOps_NET_LOGIN.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\obj\Debug\net7.0\DevSecOps_NET_LOGIN.AssemblyInfoInputs.cache
-C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\obj\Debug\net7.0\DevSecOps_NET_LOGIN.AssemblyInfo.cs
 C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\obj\Debug\net7.0\DevSecOps_NET_LOGIN.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\obj\Debug\net7.0\DevSecOps_NET_LOGIN.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Usuario\Desktop\DevSecOps_NET_CODE\DevSecOps_NET_LOGIN\obj\Debug\net7.0\DevSecOps_NET_LOGIN.sourcelink.json
