@@ -4,7 +4,7 @@ pipeline {
     environment {
         // variables de entorno para SonarQube
         SONARQUBE_SCANNER_HOME = "${WORKSPACE}/sonar-scanner"
-        SONAR_HOST_URL = 'http://13.217.163.150:9000/'
+        SONAR_HOST_URL = 'http://54.146.192.2:9000/'
         SONAR_LOGIN = credentials('Token-SonarQube')
         PATH = "${env.PATH};C:\\Windows\\System32;C:\\Program Files\\Git\\bin;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files\\dotnet"
     }
